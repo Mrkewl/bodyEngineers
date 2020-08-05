@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "913853731564",
+    "firebase_url": "https://body-engineers.firebaseio.com",
+    "project_id": "body-engineers",
+    "storage_bucket": "body-engineers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913853731564:android:7d09db2467c002fe130bc9",
+        "android_client_info": {
+          "package_name": "com.app.body_engineer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913853731564-3q4nbn65lk0c3pqur8m3tc5442riduh7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.body_engineer",
+            "certificate_hash": "10e93bb59083b8f4770812e3e2626f6b33135c75"
+          }
+        },
+        {
+          "client_id": "913853731564-3nvheioeqr3t7413bfbruf4ss18kmi00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKQG5yKoRV7vCWqctXv0v2i93xlOafqnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913853731564-3nvheioeqr3t7413bfbruf4ss18kmi00.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "913853731564-n5g9k9fiqoe5tlknptmc4im9pl2gdbhi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.bodyEngineer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

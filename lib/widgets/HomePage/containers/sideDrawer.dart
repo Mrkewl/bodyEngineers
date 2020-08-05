@@ -1,3 +1,5 @@
+import 'package:body_engineer/widgets/Login/authService.dart';
+import 'package:body_engineer/widgets/Login/index.dart';
 import 'package:flutter/material.dart';
 
 final sideDrawer = (BuildContext context) => new Drawer(
@@ -31,6 +33,15 @@ final sideDrawer = (BuildContext context) => new Drawer(
               // ...
               // Then close the drawer
               Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            title: Row(
+                children: <Widget>[Icon(Icons.exit_to_app), Text('Logout')]),
+            onTap: () {
+              AuthService().authSignOut();
+              Navigator.of(context).pushReplacement(MaterialPageRoute(
+                  builder: (BuildContext context) => Login()));
             },
           ),
         ],

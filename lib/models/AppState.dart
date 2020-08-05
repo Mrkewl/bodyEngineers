@@ -3,10 +3,14 @@ import 'package:body_engineer/models/User.dart';
 
 class AppState {
   final User user;
-  final Settings settings;
+  Settings settings;
   //constructor
   AppState({
     this.user,
     this.settings,
   });
+
+  AppState.initialState({this.user}) {
+    this.settings = Settings.initialState();
+  }
 }

@@ -1,1 +1,4 @@
-class Settings {}
+class Settings {
+  Settings();
+  Settings.initialState() {}
+}
